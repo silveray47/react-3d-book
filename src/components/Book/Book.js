@@ -1,19 +1,19 @@
 import React from 'react'
+import {StyledBook} from '../Styles/StyledBook'
+import {StyledPage} from '../Styles/StyledPage'
 
-const Book = () => {
+
+export const Book = () => {
   return (
-    <div className='Book'>
-        <div className='stack-page'></div>
-        <div className='stack-page'></div>
-        <div className='stack-page'></div>
-        <div  className='left-background-page'></div>
-        <div className='stack-page'></div>
-        <div className='stack-page'></div>
-        <div className='stack-page'></div>
-        <div className='right-background-page'></div>
-      
-    </div>
+    <StyledBook className='Book'>
+        <StyledPage className='stack-page' ></StyledPage>
+        <StyledPage className='stack-page'  ></StyledPage>
+        <StyledPage className='stack-page'  ></StyledPage>
+        <StyledPage className='left-background-page'  ></StyledPage>
+        <StyledPage className='stack-page' ></StyledPage>
+        <StyledPage className='stack-page'  ></StyledPage>
+        <StyledPage className='stack-page' ></StyledPage>
+        <StyledPage className='right-background-page'  ></StyledPage>
+    </StyledBook>
   )
 }
-
-export default Book
