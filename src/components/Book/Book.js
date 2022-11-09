@@ -5,7 +5,7 @@ import {StyledPage} from '../Styles/StyledPage'
 
 export const Book = (props) => {
   const { children, width, height, bookAngle, bookColor } = props
-    const backgroundPagesProps = { width, height, bookAngle, bookColor }
+  const backgroundPagesProps = { width, height, bookAngle, bookColor }
 
 
 

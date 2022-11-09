@@ -11,7 +11,7 @@ stories.add('App', () => {
     <Book
       width='300px'
       height='414px'
-      bookAngle='50deg'
+      bookAngle='10deg'
       bookColor='#b47a4c'
     >
 
