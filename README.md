@@ -32,6 +32,7 @@ The library contains 3 main components
 - Book
 - Page
 - Gutter
+
 The book wraps all the other components. Inside the book, all the props are transferred, the rules such as page size, angle, etc.
 Inside the book the pages are called. Each page is a wrapper element within which you can enter your content. 
 
